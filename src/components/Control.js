@@ -7,16 +7,10 @@ class Control extends Component {
         return (
             <div className=" row  container-fluid ">
                 <div className="col-lg-7 ">
-                    <Search
-                        // onSearch={this.props.onSearch}
-                         
-                    />
+                    <Search />
                 </div>
                 <div className=" col-lg-5 ">
-                    <Sort 
-                  onClickSort = {this.props.onClickSort}
-                     //onSort = {this.props.onSort}
-                     />
+                    <Sort />
                 </div>
             </div>
         );

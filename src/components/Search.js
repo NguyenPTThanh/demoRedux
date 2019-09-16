@@ -21,6 +21,8 @@ class Search extends Component {
         // console.log(this.state) ;
         this.props.onSearch(this.state.keyword);
     }
+
+
     render() {
         var { keyword } = this.state;
         return (
@@ -33,7 +35,7 @@ class Search extends Component {
                     value={keyword}
                     onChange={this.onChange}
                 />
-                <button className="btn btn-primary" type="button" onClick={() => this.props.onSearch(this.state.keyword)}>
+                <button className="btn btn-primary mx-1" type="button" onClick={() => this.props.onSearch(this.state.keyword)}>
                     Search
                 </button>
 
@@ -49,7 +51,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch, props) => {
     return {
         onSearch: (keyword) => {
-            dispatch(actions.searchTask(keyword));
+            dispatch(actions.SearchTask(keyword));
         }
 
     };

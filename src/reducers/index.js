@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import tasks from './tasks';
 import isDisplayForm from './isDisplayForm';
 import itemEditing from './itemEditing';
-import search  from './search';
+import search from './search';
 import sort from './sort';
 
 // tạo hàm combineReducers 
@@ -12,8 +12,8 @@ const myReducer = combineReducers({
     tasks: tasks,
     isDisplayForm: isDisplayForm,
     itemEditing: itemEditing,
-    search :search , 
-    sort : sort ,
+    search: search,
+    sort: sort,
 });
 
 export default myReducer;

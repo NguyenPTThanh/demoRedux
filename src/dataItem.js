@@ -8,25 +8,25 @@
         {
           id: 1,
           name: ' Anh nguyễn ',
-          email: '@gmail.com',
+          email: 'a@gmail.com',
           level: 'small',
         },
         {
           id: 2,
-          name: ' Thanh nguyễn ',
-          email: '@gmail.com',
+          name: ' Thanh Lê ',
+          email: 't@gmail.com',
           level: 'medium',
         },
         {
           id: 3,
           name: ' Châu nguyễn  ',
-          email: '@gmail.com',
+          email: 'c@gmail.com',
           level: 'hight',
         },
         {
           id: 4,
-          name: ' Lan nguyễn  ',
-          email: '@gmail.com',
+          name: ' Lan Phan  ',
+          email: 'l@gmail.com',
           level: 'hight',
         }
       ]
